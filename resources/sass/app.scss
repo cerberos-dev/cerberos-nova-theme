@@ -1,0 +1,54 @@
+:root {
+    --primary: rgb(183, 59, 103);
+    --primary-dark: rgb(183, 59, 106);
+    --primary-70: rgba(254, 1, 129, 0.7);
+    --primary-50: rgba(254, 1, 129, 0.5);
+    --primary-30: rgba(254, 1, 129, 0.3);
+    --primary-10: rgba(254, 1, 129, 0.1);
+
+    --primary-orange: rgb(206, 94, 50);
+    --primary-pink: rgb(183, 59, 103);
+
+    --sidebar-icon: rgb(255, 255, 255);
+
+    --logo: var(--primary-orange);
+}
+
+.bg-grad-sidebar {
+    background-image: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            from(var(--primary-orange)),
+            to(var(--primary-pink))
+
+    );
+
+    background-image: linear-gradient(
+            0deg,
+            var(--primary-pink),
+            var(--primary-orange)
+    );
+
+    .cerberos-logo {
+        display: block;
+        max-height: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cerberos-logo-login {
+        display: none;
+    }
+}
+
+.cerberos-logo {
+    display: none;
+}
+
+.cerberos-logo-login {
+    display: block;
+    max-height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
