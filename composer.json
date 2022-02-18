@@ -1,28 +1,13 @@
 {
     "name": "cerberos/cerberos-theme",
     "description": "A Laravel Nova theme.",
-    "type": "library",
-    "homepage": "https://github.com/cerberos-dev/cerberos-nova-theme",
-    "authors": [
-        {
-            "name": "Cerberos",
-            "homepage": "https://github.com/cerberos-dev",
-            "role": "Developer"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/cerberos-dev/cerberos-nova-theme/issues",
-        "source": "https://github.com/cerberos-dev/cerberos-nova-theme"
-    },
     "keywords": [
         "laravel",
-        "nova",
-        "theme",
-        "cerberos "
+        "nova"
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.4"
+        "php": "^7.4 | ^8.0"
     },
     "autoload": {
         "psr-4": {
